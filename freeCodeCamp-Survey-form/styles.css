@@ -52,7 +52,7 @@ body::before {
   form {
     max-width: 100%;
     min-width: 300px;
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
     background-color:#1b1b32;
 }
