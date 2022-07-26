@@ -107,13 +107,13 @@ input[type="radio"], input[type="checkbox"] {
 }
 input, select, textarea {
   padding:10px;
-  background-color:#4b4bb0;
+  background-color:#b1b1e2;
   color: inherit;
   border: none;
   border-color:#e4e4e4;
 }
 input:placeholder,select:default {
-  background-color:#4b4bb0;
+  background-color:#b1b1e2;
   border-color:#e4e4e4;
 }
 
