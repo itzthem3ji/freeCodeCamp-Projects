@@ -9,7 +9,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
-    color: white;
+    color:#e4e4e4;
     margin: 0;
 
 }
@@ -103,7 +103,27 @@ input, textarea, button, select, #submit {
 input[type="radio"], input[type="checkbox"] {
   display: inline;
   width: 10%;
+  transform:scale(1.5);
 }
+input, select, textarea {
+  padding:10px;
+  background-color:#4b4bb0;
+  color: inherit;
+  border: none;
+  border-color:#e4e4e4;
+}
+input:placeholder,select:default {
+  background-color:#4b4bb0;
+  border-color:#e4e4e4;
+}
+
+input:focus, textarea:focus, select:focus{
+    background-color:#fff;
+    color: black;
+    border-color:#ffffff;
+    outline: 0;
+  }
+
 
 #submit{
   margin-top: 2.5rem;
